@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bank.bgfi.bgfibank.Fragments.TransactionFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="16dp">
+       <Spinner
+           android:layout_width="match_parent"
+           android:id="@+id/spinner_transection"
+           android:layout_marginTop="5dp"
+
+           android:layout_height="wrap_content"
+           android:gravity="center_horizontal">
+       </Spinner>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_below="@+id/spinner_transection"
+           android:id="@+id/value_layout"
+           android:weightSum="2"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:id="@+id/txt_buy_tran"
+               android:textAlignment="center"
+               android:textSize="25dp"
+               android:layout_weight="1"/>
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:id="@+id/txt_sel_tran"
+               android:textAlignment="center"
+               android:textSize="25dp"
+               android:layout_weight="1"/>
+
+
+
+       </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:id="@+id/trans"
+    android:orientation="horizontal"
+    android:layout_below="@+id/value_layout"
+    android:weightSum="3">
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/romve_btn_tran"
+        android:background="@null"
+        android:src="@drawable/ic_remove_black_18dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/nb_trans"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_weight="2"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/add_btn_tran"
+        android:background="@null"
+        android:src="@drawable/ic_add_black_18dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/btn_trans"
+           android:layout_alignParentBottom="true"
+           android:layout_gravity="bottom"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/sell_button"
+               android:layout_width="0dp"
+               android:background="#ff1919"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:textColor="#ffffff"
+               android:text="Sell" />
+
+           <View
+               android:layout_width="1dp"
+               android:layout_height="match_parent"
+               android:background="?android:attr/listDivider" />
+
+           <Button
+               android:id="@+id/buy_button"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:textColor="#ffffff"
+               android:background="#2C5197"
+               android:layout_weight="1"
+               android:text="Buy" />
+       </LinearLayout>
+   </RelativeLayout>
+
+</FrameLayout>

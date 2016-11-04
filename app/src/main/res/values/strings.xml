@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Trading application</string>
+    <string name="depot">Deposit:</string>
+    <string name="balance">Balance:</string>
+    <string name="fake_deposit">5000.000</string>
+    <string name="fake_balance">5000.000</string>
+    <string name="sl">S/L</string>
+    <string name="tp">T/P</string>
+    <string name="swap">Swap:</string>
+    <string name="impot">Impot:</string>
+    <string name="id_bal">Id</string>
+    <string name="commission">Commission:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EUR">Euro</string>
+    <string name="USD">United States Dollar</string>
+    <string name="CAD">Canadian Dollar</string>
+    <string name="GBP">Pound Sterling</string>
+    <string name="JPY">Japanese Yen</string>
+    <string name="AUD">Australian Dollar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_activity_menu">ActivityMenu</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
